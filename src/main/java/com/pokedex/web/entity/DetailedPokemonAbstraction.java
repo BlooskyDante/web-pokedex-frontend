@@ -6,6 +6,10 @@ public class DetailedPokemonAbstraction extends SimplifiedPokemon {
     private List<String> moves;
     private EvolutionWrapper evolutionWrapper;
 
+    public DetailedPokemonAbstraction() {
+        super();
+    }
+
     public DetailedPokemonAbstraction(SimplifiedPokemon simplifiedPokemon,
                                       List<String> moves,
                                       EvolutionWrapper wrapper) {
